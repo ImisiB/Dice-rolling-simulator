@@ -2,15 +2,7 @@
 
 To create a dice-rolling-simulator, you need to follow these steps:
 
-1. import random. Create a def() function, then put a dictionary in variable(    dice = {
-    1 : (
-        "_______",
-        "|  1  |",
-        "|  O  |",
-        "|_____|",
-    ),
-    })
-Do that six times with different numbers of dice
+1. import random. Create a def() function, then put a dictionary in variable(dice),then draw the shape of a dice
 2. create a var(rolling_dice), then put an input function, and ask the user a question(rolling_dice = input("Do you want to roll a dice? (yes/no): ")). 
 3. Create a while loop like this;
 while rolling_dice.lower() == "yes".lower():
